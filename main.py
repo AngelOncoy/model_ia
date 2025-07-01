@@ -4,9 +4,9 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import torch.nn.functional as F
 
-# Cargar modelo y tokenizer (asegúrate que la carpeta esté en el mismo directorio)
-model = AutoModelForSequenceClassification.from_pretrained("robertuito-reentrenado-v2", use_safetensors=True)
-tokenizer = AutoTokenizer.from_pretrained("robertuito-reentrenado-v2")
+# Cargar modelo y tokenizer desde carpeta local
+model = AutoModelForSequenceClassification.from_pretrained("./Robertuito-reentrenado-v2", use_safetensors=True)
+tokenizer = AutoTokenizer.from_pretrained("./Robertuito-reentrenado-v2")
 model.eval()
 
 # Diccionario de etiquetas

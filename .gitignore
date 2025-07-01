@@ -1,0 +1,42 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración IDE
+.vscode/
+.idea/
+
+# Archivos temporales
+*.bak
+*.tmp
+
+# Docker
+*.tar
+*.pid
+
+# Archivos de modelos pesados
+Robertuito-reentrenado-v2/
+robertuito-reentrenado-v2/
+
+# Salida de compilaciones
+dist/
+build/
+
+# Archivos ocultos de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de Cloud
+cloudbuild.yaml.log
